@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="src/styles/styles.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Pagina de vendas</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+
+            <ul id="nav_list">
+                <li class="nav-item active">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Equipamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                
+            </button>
+
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#menu">Equipamentos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="title">
+                    O que você<br>
+                    <span>tem aqui</span>
+                </h1>
+
+                <p class="description">
+                    Em um mundo onde a conectividade é a espinha dorsal 
+                    do sucesso empresarial, garantir a performance, 
+                    segurança e manutenção das suas redes nunca foi tão 
+                    crucial. Computadores de rede é a solução definitiva para a gestão de switches,
+                    access points e servidores, projetada para simplificar 
+                    operações complexas e otimizar a eficiência da sua 
+                    infraestrutura de TI.
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        Ver lista de itens 
+                    </a>
+
+                    <a href="tel:+55(62) 98627-9544" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </button>
+                        (55) (62)98627-9544
+                    </a>
+                </div>
+
+                <div class="social-media-buttons">
+                    <a href="">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="src/images/datacenter.webp" alt="">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Equipamentos</h2>
+            <h3 class="section-subtitle">Nossos equipamentos</h3>
+
+            <div id="dishes">
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/datacenter.webp" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Servidor
+                    </h3>
+
+                    <span class="dish-description">
+                        essenciais, nossa solução de software e servidores 
+                        redefine os padrões do mercado. Projetado para 
+                        empresas que não se contentam com o comum, 
+                        oferecemos uma experiência digital sem igual, 
+                        potencializando cada aspecto do seu negócio.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$10.000,00,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/41ZQOlHxXdL._AC_UF894,1000_QL80_.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Roteador
+                    </h3>
+
+                    <span class="dish-description">
+                        Imagine um mundo onde suas conexões de internet são
+                        sempre rápidas, estáveis e seguras. Com o UltimateNet,
+                         esse mundo é uma realidade. Nosso software de roteador
+                        de última geração foi projetado para oferecer a melhor 
+                        experiência de rede, seja em casa ou no escritório.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$120,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/a_226376_alta_1.png" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Switch
+                    </h3>
+
+                    <span class="dish-description">
+                        No mundo digital de hoje, a segurança é mais crucial do que nunca. 
+                        Com ameaças cibernéticas evoluindo a cada dia, proteger seus sistemas
+                        e dados é uma prioridade máxima. É aqui que entra o Switch, a solução 
+                        definitiva para segurança cibernética.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$550,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="dish">
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="src/images/cisco_8000_series.jpg" class="dish-image" alt="">
+
+                    <h3 class="dish-title">
+                        Router
+                    </h3>
+
+                    <span class="dish-description">
+                        Imagine um mundo onde a conectividade é constante, 
+                        o desempenho é impecável, e a complexidade é coisa 
+                        do passado. Apresentamos o Software Router, a solução 
+                        definitiva para gerenciar e otimizar suas redes com 
+                        facilidade e eficiência.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$50.000,00</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <img src="src/images/homem.avif" id="testimonial_chef" alt="">
+
+            <div id="testimonials_content">
+                <h2 class="section-title">
+                    Depoimentos
+                </h2>
+                <h3 class="section-subtitle">
+                    O que os clientes falam sobre nós
+                </h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="src/images/homem.avif" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Anderson
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Recentemente, comprei alguns equipamentos de rede 
+                                para melhorar a infraestrutura da minha pequena 
+                                empresa, e a experiência foi bastante positiva. 
+                                O primeiro item que adquiri foi um switch. 
+                                A instalação foi extremamente simples e o 
+                                desempenho tem sido impecável. O switch tem ajudado 
+                                a otimizar a distribuição de largura de banda entre 
+                                os diferentes dispositivos, resultando em uma rede 
+                                mais estável e eficiente.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="src/images/mulher.jpg" class="feedback-avatar" alt="">
+
+                        <div class="feedback-content">
+                            <p>
+                                Gabriela
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                Recentemente, comprei alguns equipamentos de rede para melhorar a 
+                                infraestrutura da minha pequena empresa, e a experiência foi 
+                                bastante positiva. O primeiro item que adquiri foram alguns 
+                                servidores, eu optei por uma solução que oferecesse bom equilíbrio
+                                entre desempenho e custo. Os servidores que escolhi têm se saído 
+                                muito bem no gerenciamento das nossas aplicações e no armazenamento 
+                                de dados. A instalação e configuração foram diretas, e a capacidade 
+                                de processamento tem atendido muito bem às nossas necessidades.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="btn-default">
+                    Ver mais avaliações
+                </button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <img src="src/images/wave.svg" alt="">
+
+        <div id="footer_items">
+            <span id="copyright">
+                &copy 2024 Kauê Martins
+            </span>
+
+            <div class="social-media-buttons">
+                <a href="">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/javascript/script.js"></script>
+</body>
+</html>
